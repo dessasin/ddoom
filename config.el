@@ -7,13 +7,13 @@
 
 (setq display-line-numbers-type t)
 (setq +magit-hub-features t)
-(setq doom-theme 'doom-horizon)
+(setq doom-theme 'doom-Iosvkem)
 (setq org-directory "/mnt/Yedek/Work/Org Area")
 
 (setq
- doom-font (font-spec :family "Jetbrains Mono" :size 13)
- doom-big-font (font-spec :family "Jetbrains Mono" :size 20)
- doom-variable-pitch-font (font-spec :family "Jetbrains Mono" :size 18)
+ doom-font (font-spec :family "Jetbrains Mono " :size 12)
+ doom-big-font (font-spec :family "Jetbrains Mono" :size 15)
+ doom-variable-pitch-font (font-spec :family "Jetbrains Mono" :size 16)
  dart-format-on-save t
  web-mode-markup-indent-offset 2
  web-mode-code-indent-offset 2
@@ -71,3 +71,4 @@
 (add-hook 'mmm-mode-hook
           (lambda ()
             (set-face-background 'mmm-default-submode-face nil)))
+

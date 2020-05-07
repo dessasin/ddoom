@@ -1,8 +1,6 @@
 ;;;  -*- lexical-binding: t; -*-
 ;;;  -*- no-byte-compile: t; -*-
 
-;(package! parinfer)
-
 (package! ob-typescript)
 (package! indium)
 (package! reason-mode)
