@@ -1,5 +1,6 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
+
 (setq user-full-name "Muhammed Nurullah Torun"
       user-mail-address "mntorun@protonmail.com")
 
@@ -11,9 +12,10 @@
 (setq org-directory "/mnt/Yedek/Work/Org Area")
 
 (setq
- doom-font (font-spec :family "Jetbrains Mono " :size 12)
- doom-big-font (font-spec :family "Jetbrains Mono" :size 15)
- doom-variable-pitch-font (font-spec :family "Jetbrains Mono" :size 16)
+<<<<<<< HEAD
+ doom-font (font-spec :family "Hack" :size 12)
+ doom-big-font (font-spec :family "Hack" :size 15)
+ doom-variable-pitch-font (font-spec :family "Hack" :size 16)
  dart-format-on-save t
  web-mode-markup-indent-offset 2
  web-mode-code-indent-offset 2

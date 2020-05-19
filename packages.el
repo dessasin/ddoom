@@ -1,7 +1,6 @@
 ;;;  -*- lexical-binding: t; -*-
 ;;;  -*- no-byte-compile: t; -*-
 
-(package! ob-typescript)
 (package! indium)
 (package! reason-mode)
 (package! prettier-js)
