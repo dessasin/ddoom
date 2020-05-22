@@ -12,7 +12,6 @@
 (setq org-directory "/mnt/Yedek/Work/Org Area")
 
 (setq
-<<<<<<< HEAD
  doom-font (font-spec :family "Hack" :size 12)
  doom-big-font (font-spec :family "Hack" :size 15)
  doom-variable-pitch-font (font-spec :family "Hack" :size 16)

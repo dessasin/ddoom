@@ -4,7 +4,7 @@
        ;;japanese
 
        :completion
-       (company +tng +auto +childframe) ; the ultimate code completion backend
+       (company +auto +childframe) ; the ultimate code completion backend
 
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
