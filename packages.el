@@ -13,3 +13,4 @@
 (package! ascii-art-to-unicode)
 (package! wakatime-mode)
 (package! rjsx-mode)
+(package! auto-complete)

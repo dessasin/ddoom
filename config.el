@@ -8,7 +8,7 @@
 
 (setq display-line-numbers-type t)
 (setq +magit-hub-features t)
-(setq doom-theme 'doom-Iosvkem)
+(setq doom-theme 'doom-horizon)
 (setq org-directory "/mnt/Yedek/Work/Org Area")
 
 (setq
@@ -72,4 +72,8 @@
 (add-hook 'mmm-mode-hook
           (lambda ()
             (set-face-background 'mmm-default-submode-face nil)))
+(use-package auto-complete :ensure t :init
+(progn (ac-config-default) 
+(global-auto-complete-mode t)))
+(setq ac-auto-show-menu 0.2)
 
